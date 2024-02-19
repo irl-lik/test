@@ -57,3 +57,13 @@ console.log(filteredArr);*/
 const myArray = Object.freeze([1, 2, 3]);
 console.log(myArray); // Вывод: [1, 2, 3]
 myArray.push(4); // Недопустимо, так как массив заморожен
+
+const string = prompt("Enter string: ") || '';
+
+if (string) {
+    let result = "";
+    for (let i = 0; i < string.length; i++) {
+        result += string[string.length - i - 1];
+    }
+    console.log(result);
+}
