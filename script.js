@@ -57,4 +57,3 @@ console.log(filteredArr);*/
 const myArray = Object.freeze([1, 2, 3]);
 console.log(myArray); // Вывод: [1, 2, 3]
 myArray.push(4); // Недопустимо, так как массив заморожен
-console.log(4)
